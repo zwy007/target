@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="screen and (max-width:960px)" href="css/media.css">
+    <link rel="stylesheet" media="screen and (max-width:660px)" href="css/media_01.css">
+    <script src="js/jquery-1.8.3.js"></script>
+</head>
+<body>
+<!--header.............................-->
+<header>
+    <div class="logo_list">
+        <div class="logo">
+            <i class="iconfont icon-target"></i>
+            <h3>target</h3>
+        </div>
+        <div class="list">
+            <i class="iconfont icon--liebiao"></i>
+        </div>
+    </div>
+    <div class="top_nav">
+        <div class="top_nav_list">
+            <i class="iconfont icon-informatiom"></i>
+            <i class="iconfont icon-xiajiantou1"></i>
+        </div>
+        <div class="top_nav_list">
+            <i class="iconfont icon-jindu"></i>
+            <i class="iconfont icon-xiajiantou1"></i>
+        </div>
+        <div class="top_nav_list">
+            <i class="iconfont icon-xiaoxi"></i>
+            <i class="iconfont icon-xiajiantou1"></i>
+        </div>
+        <div class="top_nav_list">
+            <i class="iconfont icon-person1"></i>
+            <span>John Doe</span>
+            <i class="iconfont icon-xiajiantou1"></i>
+        </div>
+    </div>
+</header>
+<!--header.............................-->
+
+<!--section......................................-->
+<section>
+    <nav>
+        <ul>
+            <li><a href="index.html">
+                <i class="iconfont icon-dashboard"></i><span>Dashboard</span>
+            </a></li>
+            <li><a href="article_two.html">
+                <i class="iconfont icon-diannaoban"></i><span>UI Elements</span>
+            </a></li>
+            <li><a href="article_three.html">
+                <i class="iconfont icon-bar-chart-square"></i><span>Charts</span>
+            </a></li>
+            <li><a href="article_four.html">
+                <i class="iconfont icon-erweima"></i><span>Tabs & Panels</span>
+            </a></li>
+            <li><a href="article_five.html">
+                <i class="iconfont icon-table"></i><span>Responsive Tables</span>
+            </a></li>
+            <li><a href="article_six.html">
+                <i class="iconfont icon-edit"></i><span>Forms</span>
+            </a></li>
+            <li>
+                <a href="article_seven.html">
+                    <i class="iconfont icon-dropdowndepartment"></i><span>Multi-Level Dorpdown</span>
+                </a>
+                <i class="iconfont icon-zuojiantou show_submenu"></i>
+            </li>
+            <ol>
+                <li><span>one</span></li>
+                <li><span>two</span></li>
+                <li><span>three</span></li>
+                <li><span>four</span></li>
+            </ol>
+            <li>
+                <a href="article_eight.html">
+                    <i class="iconfont icon-10file"></i><span>Empty Pages</span>
+                </a>
+                <i class="iconfont icon-zuojiantou show_submenu"></i>
+            </li>
+            <ol>
+                <li><span>one</span></li>
+                <li><span>two</span></li>
+                <li><span>three</span></li>
+                <li><span>four</span></li>
+            </ol>
+        </ul>
+
+    </nav>
+
+    <article id="article_eight">
+        <div class="dashboard">
+            <p style="font-size: 30px; font-family: SansSerif">敬请期待...</p>
+        </div>
+    </article>
+
+</section>
+<!--section.....................................-->
+
+</body>
+</html>
+<script src="js/index.js"></script>
+<script>
+    $('.show_submenu').click(function(){
+        $(this).parent().next().slideToggle(500);
+    })
+</script>

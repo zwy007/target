@@ -1,0 +1,119 @@
+
+  //header...............................
+  header{
+    display: flex;
+    flex-direction: column;
+  }
+  header .logo_list{
+    width: 100%;
+    justify-content: space-between;
+  }
+  header .logo_list .logo i{
+    text-indent: 30px ;
+  }
+  header .logo_list .logo h3{
+    text-indent: 15px ;
+  }
+  header .logo_list .list{
+    background: #f54236 ;
+  }
+  header .logo_list .list .icon--liebiao{
+    font-size: 40px ;
+    color: white ;
+  }
+  header .top_nav{
+    width: 100% ;
+    justify-content: flex-start ;
+  }
+
+
+  //section.................................
+  //article_one
+  section nav{
+    display: none ;
+  }
+  section article{
+    width: 100% ;
+  }
+  section #article_one .dashboard .one_row{
+    height: auto ;
+    flex-direction: column ;
+  }
+  section #article_one .dashboard .one_row .one_row_col{
+    margin-bottom: 20px ;
+    width: 100% ;
+  }
+
+  section #article_one .dashboard .two_row{
+    height: auto ;
+    flex-direction: column ;
+  }
+  section #article_one .dashboard .two_row .two_row_left{
+    width: 100% ;
+    height: 500px ;
+    margin-bottom: 20px;
+  }
+  section #article_one .dashboard .two_row .two_row_left .two_row_left_top{
+    margin-bottom: 20px ;
+  }
+  section #article_one .dashboard .two_row .two_row_left .two_row_list{
+    height: auto ;
+  }
+  section #article_one .dashboard .two_row .two_row_right{
+    width: 100% ;
+    height: 400px ;
+  }
+
+  section #article_one .dashboard .three_row{
+    height: auto ;
+    flex-direction: column ;
+  }
+  section #article_one .dashboard .three_row .three_row_left{
+    margin-bottom: 20px ;
+    height: 400px ;
+    width: 100% ;
+  }
+  section #article_one .dashboard .three_row .three_row_right{
+    width: 100% ;
+    height: 400px ;
+  }
+
+
+  section #article_one .dashboard .five_row{
+    height: auto ;
+    flex-direction: column ;
+  }
+  section #article_one .dashboard .five_row .five_row_left{
+    width: 100% ;
+    height: 480px ;
+    margin-bottom: 20px ;
+  }
+  section #article_one .dashboard .five_row .five_row_right{
+    width: 100% ;
+    height: 480px ;
+  }
+
+  //article_two
+  section #article_two .dashboard .five_row .five_row_con .five_row_list{
+    width: 30% ;
+    margin-right: 3%;
+  }
+
+
+  //article_four
+  section #article_four .dashboard .one_row{
+    flex-direction: column ;
+  }
+  section #article_four .dashboard .one_row .one_row_left,
+  section #article_four .dashboard .one_row .one_row_center,
+  section #article_four .dashboard .one_row .one_row_right {
+    width: 100% ;
+  }
+  section #article_four .dashboard .one_row .one_row_left,
+  section #article_four .dashboard .one_row .one_row_center{
+    margin-bottom: 20px ;
+  }
+
+
+
+

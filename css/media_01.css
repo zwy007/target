@@ -1,0 +1,137 @@
+section #article_one .dashboard .two_row .two_row_left {
+  width: 100%;
+  height: 1200px;
+}
+
+section #article_one .dashboard .two_row .two_row_left .two_row_left_top,
+section #article_one .dashboard .two_row .two_row_left .two_row_left_bot {
+  flex-direction: column;
+  width: 100%;
+  height: 48%;
+}
+
+section #article_one .dashboard .two_row .two_row_left .two_row_left_top .two_row_list,
+section #article_one .dashboard .two_row .two_row_left .two_row_left_bot .two_row_list {
+  width: 100%;
+  height: 48%;
+  background-position: top center;
+  background-size: 400px 300px;
+}
+
+section #article_two .dashboard .two_row {
+  flex-direction: column;
+}
+
+section #article_two .dashboard .two_row .two_row_left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section #article_two .dashboard .two_row .two_row_right {
+  width: 100%;
+}
+
+section #article_two .dashboard .four_row {
+  flex-direction: column;
+}
+
+section #article_two .dashboard .four_row .four_row_left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section #article_two .dashboard .four_row .four_row_right {
+  width: 100%;
+}
+
+section #article_two .dashboard .five_row .five_row_con .five_row_list {
+  width: 45%;
+  margin-right: 5%;
+}
+
+section #article_three .dashboard .one_row {
+  flex-direction: column;
+}
+
+section #article_three .dashboard .one_row .one_row_left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section #article_three .dashboard .one_row .one_row_right {
+  width: 100%;
+}
+
+section #article_three .dashboard .two_row .one_row_right {
+  height: 400px;
+}
+
+section #article_four .dashboard .two_row {
+  flex-direction: column;
+}
+
+section #article_four .dashboard .two_row .two_row_left,
+section #article_four .dashboard .two_row .two_row_center,
+section #article_four .dashboard .two_row .two_row_right {
+  width: 100%;
+}
+
+section #article_four .dashboard .two_row .two_row_con {
+  height: 300px;
+}
+
+section #article_four .dashboard .two_row .two_row_left,
+section #article_four .dashboard .two_row .two_row_center {
+  margin-bottom: 20px;
+}
+
+section #article_four .dashboard .three_row {
+  flex-direction: column;
+}
+
+section #article_four .dashboard .three_row .three_row_left,
+section #article_four .dashboard .three_row .three_row_right {
+  width: 100%;
+}
+
+section #article_four .dashboard .three_row .three_row_left {
+  margin-bottom: 20px;
+}
+
+section #article_five .dashboard .two_row,
+section #article_five .dashboard .three_row,
+section #article_five .dashboard .four_row {
+  flex-direction: column;
+  height: auto;
+}
+
+section #article_five .dashboard .two_row .two_row_left,
+section #article_five .dashboard .two_row .two_row_right,
+section #article_five .dashboard .three_row .three_row_left,
+section #article_five .dashboard .three_row .three_row_right,
+section #article_five .dashboard .four_row .four_row_left,
+section #article_five .dashboard .four_row .four_row_right {
+  width: 100%;
+}
+
+section #article_five .dashboard .two_row .two_row_left,
+section #article_five .dashboard .three_row .three_row_left,
+section #article_five .dashboard .four_row .four_row_left {
+  margin-bottom: 20px;
+}
+
+section #article_six .dashboard .two_row {
+  flex-direction: column;
+  height: auto;
+}
+
+section #article_six .dashboard .two_row .two_row_left {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+section #article_six .dashboard .two_row .two_row_right {
+  width: 100%;
+}
+
+/*# sourceMappingURL=media_01.css.map */
